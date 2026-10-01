@@ -5,7 +5,7 @@ function toCase(text) {
 	}
 	let textUpperCase=text.toUpperCase();
 
-	return (text+"-"+textUpperCase;
+	return (text+"-"+textUpperCase);
 }
 
 // DO not change the code below
