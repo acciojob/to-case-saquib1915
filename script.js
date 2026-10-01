@@ -4,8 +4,9 @@ function toCase(text) {
 		return "-";
 	}
 	let textUpperCase=text.toUpperCase();
+	let textLowerCase=text.toLowerCase();
 
-	return (text+"-"+textUpperCase);
+	return (textLowerCase+"-"+textUpperCase);
 }
 
 // DO not change the code below
