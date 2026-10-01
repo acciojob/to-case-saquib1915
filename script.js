@@ -1,5 +1,11 @@
 function toCase(text) {
   // write your code here
+	if(text===""){
+		return "";
+	}
+	let textUpperCase=text.toUpperCase();
+
+	return textUpperCase;
 }
 
 // DO not change the code below
