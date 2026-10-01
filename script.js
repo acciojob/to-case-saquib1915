@@ -1,14 +1,14 @@
 function toCase(text) {
   // write your code here
 	if(text===""){
-		return "";
+		return "-";
 	}
 	let textUpperCase=text.toUpperCase();
 
-	return textUpperCase;
+	return (text+"-"+textUpperCase;
 }
 
 // DO not change the code below
 
-const text = prompt("Enter text:");
+/const text = prompt("Enter text:");
 alert(toCase(text));
